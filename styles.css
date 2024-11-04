@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text for readability */
+}
+
+header {
+    background: #007bff; /* Bright blue header */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Larger title */
+}
+
+header p {
+    font-style: italic;
+}
+
+section {
+    background: #fff; /* White background for sections */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+img {
+    max-width: 150px; /* Fixed size for profile picture */
+    height: auto;
+    border-radius: 50%; /* Circular profile picture */
+    border: 3px solid #007bff; /* Blue border */
+}
+
+h2 {
+    color: #007bff; /* Blue headings */
+    border-bottom: 2px solid #007bff; /* Underline */
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+ul li {
+    background: #e9ecef; /* Light grey for list items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #007bff; /* Blue border for projects */
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.project img {
+    max-width: 100%; /* Responsive project images */
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff; /* Same blue as header */
+    color: #fff;
+}
+
+a {
+    color: #007bff; /* Blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+@media (max-width: 600px) {
+    header, section {
+        margin: 10px;
+        padding: 10px;
+    }
+    img {
+        width: 80%; /* Adjust size for smaller screens */
+    }
+}
